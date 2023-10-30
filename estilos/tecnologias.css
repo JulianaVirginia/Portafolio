@@ -1,0 +1,136 @@
+/* section teconlogias*/
+
+.tecnologias {
+    height: 550px;
+    padding-top: 1rem;
+    background: rgb(178, 112, 204);  
+}
+.tecnologias h1{
+    margin: 5rem 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.80rem;
+}
+
+.padredetodo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor {
+    width: 200px;
+    height: 220px;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #ee8fdb, -20px -20px 60px #e056e5;
+}
+
+.div-logos-hijo {
+    /* border: 1px solid yellow; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 210px;
+    background: rgba(205, 141, 189, 0.95);
+    border-radius: 10px;
+    outline: 2px solid rgb(226, 166, 206);
+}
+
+
+.logostecn{
+    width: 120px;
+    height: 120px;
+}
+
+
+/* RESPONSIVE  */
+@media screen and (max-width:1255px){
+    .contenedor {
+        width: 170px;
+        /* border: 1px solid blue; */
+        height: 200px;
+    }
+    .div-logos-hijo {
+        /* border: 1px solid yellow; */
+        width: 160px;
+        height: 190px;
+    }
+    .logostecn{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .tecnologias {
+        height: 450px;
+    }
+    .tecnologias h1{
+        margin: 4rem 0;
+        font-size: 1.60rem;
+    }
+    .contenedor {
+        width: 110px;
+        height: 130px;
+    }
+    .div-logos-hijo {
+        width: 100px;
+        height: 120px;
+    }
+    .logostecn{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:790px){
+    .tecnologias {
+        height: 400px;
+    }
+    .tecnologias h1{
+        font-size: 1.40rem;
+    }
+    .contenedor {
+        width: 90px;
+        height: 110px;
+    }
+    .div-logos-hijo {
+        width: 90px;
+        height: 100px;
+    }
+    .logostecn{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .tecnologias {
+        height: 300px;
+    }
+    .tecnologias h1{
+        font-size: 1.26rem;
+        margin: 3rem 0;
+    }
+    .contenedor {
+        width: 70px;
+        height: 90px;
+    }
+    .div-logos-hijo {
+        width: 70px;
+        height: 80px;
+    }
+    .logostecn{
+        width: 30px;
+        height: 30px;
+    }
+    
+}

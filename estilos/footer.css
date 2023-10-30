@@ -1,0 +1,27 @@
+#footer-div-padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    background: rgb(188, 102, 139);
+    background: radial-gradient(circle, rgb(153, 98, 122) 17%, rgb(187, 106, 212) 77%);
+}
+
+.footer-div-hijo{
+    padding: 0 3rem;
+}
+
+.footer-div-hijo i{
+    color: rgb(177, 139, 212);
+}
+
+
+@media screen and (max-width:1000px) {
+    #footer-div-padre{
+        height: 3rem;
+    }
+    .footer-div-hijo i{
+        size: 13px;
+    }
+}
+

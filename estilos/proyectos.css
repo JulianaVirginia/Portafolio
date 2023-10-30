@@ -1,0 +1,166 @@
+.proyectos{
+    height: 700px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 17%, rgba(199,132,219,1) 77%);
+}
+.titulo-proyectos{
+    padding: 6rem 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.80rem;
+}
+.container-proyectos-padre{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.container-proyectos-hijo{
+    background: rgb(178, 112, 204);
+    width: 273px;
+    height: 370px;
+}
+.portada-proyectos{
+    width: 273px;
+}
+
+.portada-proyectos:hover{
+    -webkit-transform: scale(1.1);transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.texto-proyectos{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-size: 0.90rem;
+    margin: 1rem 0 0 0.60rem;
+}
+.container-tec-usadas{
+    margin-top: 1rem;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tec{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 0.90rem;
+    padding: 4px 8px;
+    background-color: rgb(137, 90, 147);
+    border-radius: 50em;
+    box-shadow: inset 0 0 15px 0 rgb(133, 42, 134);
+}
+
+/* RESPONSIVE*/
+@media screen  and (max-width:1255px) {
+    .container-proyectos-hijo{
+        width: 250px;
+        height: 350px;
+    }
+    .portada-proyectos{
+        width: 250px;
+    }
+    .texto-proyectos{
+        font-size: 0.80rem;
+    }
+    .container-tec-usadas{
+        margin-top: 2rem;
+    
+    }
+    .tec{
+        font-weight: 300;
+        font-size: 0.80rem;
+    }
+    
+}
+
+@media screen and (max-width: 1140px) {
+    .proyectos{
+        height: 1100px;
+    }
+    .container-proyectos-padre{
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+    .container-proyectos-hijo{
+        margin-bottom: 3rem;
+    }
+    
+}
+
+@media screen and (max-width:1000px){
+    .titulo-proyectos{
+        font-size: 1.60rem;
+    }
+    .container-proyectos-padre{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:885px){
+    .titulo-proyectos{
+        font-size: 1.60rem;
+    }
+    .container-proyectos-padre{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:790px){
+    .titulo-proyectos{
+        font-size: 1.40rem;
+    }
+    .container-proyectos-hijo{
+        width: 230px;
+        height: 330px;
+    }
+    .portada-proyectos{
+        width: 230px;
+    }
+    .texto-proyectos{
+        font-size: 0.70rem;
+        margin-right: 0.40rem;
+    }
+    .container-tec-usadas{
+        margin-top: 1.50rem;
+    }
+    .tec{
+        font-weight: 300;
+        font-size: 0.70rem;
+    }
+    
+}
+
+@media screen and (max-width:590px){
+    .proyectos{
+        height: 820px;
+    }
+    .titulo-proyectos{
+        font-size: 1.26rem;
+        padding: 3.50rem 0;
+    }
+    .container-proyectos-hijo{
+        width: 210px;
+        height: 275px;
+    }
+    .portada-proyectos{
+        width: 210px;
+    }
+    .texto-proyectos{
+        font-size: 0.60rem;
+        margin-right: 0.40rem;
+    }
+    .container-tec-usadas{
+        margin-top: 1.30rem;
+    }
+    .tec{
+        font-size: 0.57rem;
+    }
+
+}
